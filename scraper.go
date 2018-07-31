@@ -72,7 +72,7 @@ func createMarkDown(date string, filename string) {
 
 	// make a write buffer
 	w := bufio.NewWriter(fo)
-	w.WriteString("###" +"\r" + date + "\n")
+	w.WriteString("###" +" " + date + "\n")
 	w.Flush()
 }
 
